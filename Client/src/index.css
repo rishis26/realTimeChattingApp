@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.join_room {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.join_room input {
+  height: 35px;
+  width: 350px;
+  background-color: black;
+  color: whitesmoke;
+  border: 2px solid lightseagreen;
+  border-radius: 12px;
+}
+
+.join_room input::placeholder {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.join_room button {
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(216, 112, 216);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.join_room button:hover {
+  background-color: rgb(185, 45, 185);
+}
+
+.chat_conatiner {
+  height: 600px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.chat_box {
+  background-color: rgb(135, 33, 185);
+  height: 500px;
+  position: relative;
+  border: 2px solid yellow;
+}
+
+.chat_body {
+  position: absolute;
+  bottom: 0;
+}
+
+.chat_body input {
+  height: 40px;
+  width: 350px;
+  border: 2px solid lightgreen;
+}
+
+.chat_body button {
+  height: 46px;
+  width: 38px;
+  padding: 11px;
+  color: white;
+  background-color: violet;
+}
+
+.chat_body input::placeholder {
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.message_content {
+  display: flex;
+  line-height: 0;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+#you {
+  justify-content: flex-end;
+}
+
+#g {
+  background-color: lightgreen;
+  color: black;
+  padding: 10px;
+  border-radius: 5%;
+}
+#other {
+  justify-self: flex-start;
+}
+
+#w {
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.auto-scrolling-div::-webkit-scrollbar {
+  display: none;
+}
